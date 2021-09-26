@@ -1,11 +1,13 @@
 import React, { ReactNode, useContext, useRef, useState } from 'react';
 import styles from './index.less';
+let originHeight: number;
 const toggleModalFullscreen = (element: HTMLElement, exit = false) => {
   const toggleFullScreenEle = element.parentElement;
   if (!toggleFullScreenEle) {
     return;
   }
   if (!document.fullscreenElement && !exit) {
+    originHeight = toggleFullScreenEle.clientHeight;
     toggleFullScreenEle
       .requestFullscreen()
       .then(() => {
@@ -17,13 +19,13 @@ const toggleModalFullscreen = (element: HTMLElement, exit = false) => {
         );
       });
   } else if (document.exitFullscreen && document.fullscreenElement) {
-    toggleFullScreenEle.style.height = 'auto';
+    toggleFullScreenEle.style.height = originHeight + 'px';
     document.exitFullscreen();
   }
 };
 
 interface Iprops {
-  children?: ReactNode;
+  style?: React.HTMLAttributes<HTMLSpanElement>;
 }
 const index = (props: Iprops) => {
   const [isFullScreen, setIsFullScreen] = useState<boolean>(false);
@@ -39,6 +41,7 @@ const index = (props: Iprops) => {
       className={styles.toggleWrapper}
       onClick={toggleFullscreen}
       ref={fullRef}
+      style={{ ...props.style }}
     >
       {isFullScreen ? (
         <>
