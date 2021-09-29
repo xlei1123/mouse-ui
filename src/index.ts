@@ -1,1 +1,2 @@
-export { default as FullScreen } from './fullScreen';
+export { default as FullScreen } from './full-screen';
+export { default as AngleMark } from './angle-mark';

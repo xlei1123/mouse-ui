@@ -1,27 +1,21 @@
 # reactUI
 
-## Getting Started
+> 一些常用的奇奇怪怪的组件
 
-Install dependencies,
+## 组件列表
 
-```bash
-$ npm i
-```
+### FullScreen 全屏
 
-Start the dev server,
+### AngleMark 角标
 
-```bash
-$ npm start
-```
+### ReactColor 颜色选择器
 
-Build documentation,
+### ReactDraggable 拖拽
 
-```bash
-$ npm run docs:build
-```
+### watermark 水印
 
-Build library via `father-build`,
+### Notice 公告
 
-```bash
-$ npm run build
-```
+### eyes 组件
+
+> 模仿支付宝的是否可见, 利用 proxy 更改 get 时的取值。
