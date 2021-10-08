@@ -12,7 +12,6 @@ const angleOptions = {
   position: 'rightTop', // 'leftTop', 'leftBottom', 'rightTop', 'rightBottom', 'center'
   imgsrc: 'https://avatars.githubusercontent.com/u/17528531?v=4',
   size: 100,
-  clip: true,
 };
 export default () => {
   return (

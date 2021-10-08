@@ -6,7 +6,6 @@ interface Iprops {
     position?: POSITION;
     imgsrc: string;
     size?: number;
-    clip?: boolean;
   };
   children: ReactNode;
 }
@@ -22,6 +21,7 @@ const index = (props: Iprops) => {
         style={{
           width: angleOptions.size,
           height: angleOptions.size,
+          position: 'absolute',
           ...positionInlineStyle[position],
         }}
       />
