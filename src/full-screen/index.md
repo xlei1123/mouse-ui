@@ -1,4 +1,4 @@
-## fullScreen
+## full-screen
 
 功能： 组件直接父级 切换全屏功能
 
