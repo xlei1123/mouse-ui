@@ -1,4 +1,4 @@
-import React, { ReactNode, useContext, useRef, useState } from 'react';
+import React, { ReactNode } from 'react';
 import style from './index.less';
 import { POSITION, positionInlineStyle } from './position';
 interface Iprops {
