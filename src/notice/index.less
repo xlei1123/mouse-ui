@@ -1,0 +1,38 @@
+.noticeWrapper {
+  overflow: hidden;
+  height: 100%;
+  .moveBox:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+  @keyframes horizontalMove {
+    0% {
+      transform: translateX(100%);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes verticalMove {
+    0% {
+      transform: translateY(20%);
+    }
+    20% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  .horizontalRunBox {
+    animation: horizontalMove 26s infinite linear;
+  }
+  .verticalRunBox {
+    display: flex;
+    flex-direction: column;
+    animation: verticalMove 26s infinite linear;
+  }
+}
