@@ -1,11 +1,11 @@
 ---
 group:
-  title: Components
+  title: 组件
   group: /components
   order: 2
 ---
 
-## angle-mark
+## 角标
 
 功能： 角标 左上，左下 右下，右上，中，自定义
 

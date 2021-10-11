@@ -1,11 +1,11 @@
 ---
 group:
-  title: Components
+  title: 组件
   group: /components
   order: 2
 ---
 
-## notice
+## 公告通知
 
 功能：通知公告滚动栏
 

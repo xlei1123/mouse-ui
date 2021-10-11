@@ -1,13 +1,13 @@
 ---
 group:
-  title: Components
+  title: 组件
   group: /components
   order: 2
 ---
 
-## waterMark
+## 水印
 
-功能： 水印
+功能： 背景添加水印
 
 ### Demo
 

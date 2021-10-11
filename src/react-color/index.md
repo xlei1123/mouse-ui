@@ -1,11 +1,11 @@
 ---
 group:
-  title: Components
+  title: 组件
   group: /components
   order: 2
 ---
 
-## react-color
+## 颜色选择器
 
 功能： 颜色选择器
 

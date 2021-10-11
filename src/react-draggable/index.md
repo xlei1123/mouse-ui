@@ -1,11 +1,11 @@
 ---
 group:
-  title: Components
+  title: 组件
   group: /components
   order: 2
 ---
 
-## react-darggable
+## 拖拽
 
 功能： 拖拽
 

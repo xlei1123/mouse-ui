@@ -1,11 +1,11 @@
 ---
 group:
-  title: Components
+  title: 组件
   group: /components
   order: 2
 ---
 
-## full-screen
+## 全屏
 
 功能： 组件直接父级 切换全屏功能
 

@@ -1,11 +1,11 @@
 ---
 group:
-  title: Components
+  title: 组件
   group: /components
   order: 2
 ---
 
-## h5-preview
+## h5 预览
 
 功能： 在 pc 端显示一个 H5 容器
 
