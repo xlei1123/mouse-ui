@@ -1,3 +1,10 @@
+---
+group:
+  title: Components
+  group: /components
+  order: 2
+---
+
 ## react-color
 
 功能： 颜色选择器
@@ -6,7 +13,7 @@
 
 ```tsx
 import React, { useState } from 'react';
-import { ReactColor } from 'reactUI';
+import { ReactColor } from 'react-ui';
 export default () => {
   const [color, setColor] = useState();
   const onChangeComplete = (color) => {
@@ -25,7 +32,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { ReactColor } from 'reactUI';
+import { ReactColor } from 'react-ui';
 export default () => {
   return <ReactColor.BlockPicker />;
 };
@@ -35,7 +42,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { ReactColor } from 'reactUI';
+import { ReactColor } from 'react-ui';
 export default () => {
   return <ReactColor.CirclePicker />;
 };
@@ -45,7 +52,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { ReactColor } from 'reactUI';
+import { ReactColor } from 'react-ui';
 export default () => {
   return <ReactColor.CompactPicker />;
 };
@@ -55,7 +62,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { ReactColor } from 'reactUI';
+import { ReactColor } from 'react-ui';
 export default () => {
   return <ReactColor.PhotoshopPicker />;
 };

@@ -1,3 +1,10 @@
+---
+group:
+  title: Components
+  group: /components
+  order: 2
+---
+
 ## angle-mark
 
 功能： 角标 左上，左下 右下，右上，中，自定义
@@ -6,7 +13,7 @@
 
 ```tsx
 import React, { useState } from 'react';
-import { AngleMark } from 'reactUI';
+import { AngleMark } from 'react-ui';
 import style from './index.less';
 const angleOptions = {
   position: 'rightTop', // 'leftTop', 'leftBottom', 'rightTop', 'rightBottom', 'center'

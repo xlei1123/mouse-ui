@@ -1,3 +1,10 @@
+---
+group:
+  title: Components
+  group: /components
+  order: 2
+---
+
 ## react-darggable
 
 功能： 拖拽
@@ -6,7 +13,7 @@
 
 ```tsx
 import React, { useState } from 'react';
-import { ReactDraggable } from 'reactUI';
+import { ReactDraggable } from 'react-ui';
 export default () => {
   return (
     <ReactDraggable>

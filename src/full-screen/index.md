@@ -1,3 +1,10 @@
+---
+group:
+  title: Components
+  group: /components
+  order: 2
+---
+
 ## full-screen
 
 功能： 组件直接父级 切换全屏功能
@@ -7,7 +14,7 @@
 
 ```tsx
 import React, { useState } from 'react';
-import { FullScreen } from 'reactUI';
+import { FullScreen } from 'react-ui';
 import style from './index.less';
 export default () => {
   return (

@@ -1,3 +1,10 @@
+---
+group:
+  title: Components
+  group: /components
+  order: 2
+---
+
 ## h5-preview
 
 功能： 在 pc 端显示一个 H5 容器
@@ -6,7 +13,7 @@
 
 ```tsx
 import React, { useState } from 'react';
-import { H5Preview } from 'reactUI';
+import { H5Preview } from 'react-ui';
 export default () => {
   return (
     <H5Preview>
@@ -20,7 +27,7 @@ export default () => {
 
 ```tsx
 import React, { useState } from 'react';
-import { H5Preview } from 'reactUI';
+import { H5Preview } from 'react-ui';
 export default () => {
   return (
     <H5Preview>
