@@ -5,3 +5,4 @@ export { default as H5Preview } from './h5-preview';
 export { default as ReactDraggable } from './react-draggable';
 export { default as Notice } from './notice';
 export { default as WaterMark } from './waterMark';
+export { default as PC } from './pc';
