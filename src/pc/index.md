@@ -11,32 +11,16 @@ group:
 
 ### Demo: mac
 
+长宽默认是 600 400 你也可以定义
+
 ```tsx
 import React, { useState } from 'react';
 import { PC } from 'react-ui';
 export default () => {
   return (
-    <PC>
+    <PC height={400} width={600}>
       <div style={{ padding: '10px' }}>预览内容</div>
     </PC>
   );
 };
 ```
-
-### Demo: windows
-
-```tsx
-import React, { useState } from 'react';
-import { H5Preview } from 'react-ui';
-export default () => {
-  return (
-    <H5Preview>
-      <iframe src="https://h5.aisee.qq.com/index" />
-    </H5Preview>
-  );
-};
-```
-
-### Demo: 依据访问的设备适配
-
-### Demo: 不包含键盘

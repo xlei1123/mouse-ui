@@ -31,7 +31,7 @@ import { H5Preview } from 'react-ui';
 export default () => {
   return (
     <H5Preview>
-      <iframe src="https://h5.aisee.qq.com/index" />
+      <iframe src="http://localhost:8000/h5-preview" frameborder="no" />
     </H5Preview>
   );
 };
