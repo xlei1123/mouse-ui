@@ -61,10 +61,6 @@ npm install react-ui --save
 
 参考 [在 TypeScript 中使用](https://ant.design/docs/react/use-in-typescript-cn)。
 
-## 🌍 国际化
-
-参考 [国际化文档](https://ant.design/docs/react/i18n-cn)。
-
 ## 🔗 链接
 
 - [首页](https://ant.design/)
@@ -78,13 +74,13 @@ npm install react-ui --save
 ## ⌨️ 本地开发
 
 ```bash
-$ git clone git@github.com:ant-design/ant-design.git
-$ cd ant-design
+$ git clone git@github.com:xlei1123/react-ui.git
+$ cd react-ui
 $ npm install
 $ npm start
 ```
 
-打开浏览器访问 http://127.0.0.1:8001 ，更多[本地开发文档](https://github.com/ant-design/ant-design/wiki/Development)。
+打开浏览器访问 http://127.0.0.1:8000 ，更多[本地开发文档](https://github.com/ant-design/ant-design/wiki/Development)。
 
 ## 🤝 参与共建 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
