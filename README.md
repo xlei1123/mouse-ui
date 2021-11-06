@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="">
-    <img width="200" src="./public/logo.png" style="border-radius: 50%">
-  </a>
-</p>
-
 <h1 align="center">React UI</h1>
 
 <div align="center">
