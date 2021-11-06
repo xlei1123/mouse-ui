@@ -27,14 +27,14 @@ react-ui 集成了项目中一些常用但不常见的组件。在这里你总�
 
 </div>
 
-[![](https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*Ey3wTo-5__QAAAAAAAAAAABkARQnAQ)](https://ant.design/index-cn)
+[![](./public/bgimg.png)](https://ant.design/index-cn)
 
 ## ✨ 特性
 
 - 🌈 复杂组件。
 - 📦 开箱即用的高质量 React 组件。
 - 🛡 使用 TypeScript 开发，提供完整的类型定义文件。
-- 🎨 深入每个细节的主题定制能力。
+- 🎨 深入每个细节。
 
 ## 🖥 兼容环境
 
@@ -55,21 +55,9 @@ npm install react-ui --save
 
 ### 🌈 定制主题
 
-参考 [定制主题](https://ant.design/docs/react/customize-theme-cn) 文档。
+开发中...。
 
-### 🛡 TypeScript
-
-参考 [在 TypeScript 中使用](https://ant.design/docs/react/use-in-typescript-cn)。
-
-## 🔗 链接
-
-- [首页](https://ant.design/)
-- [开发者说明](https://github.com/ant-design/ant-design/wiki/Development)
-- [版本发布规则]()
-- [常见问题](https://ant.design/docs/react/faq-cn)
-- [定制主题](https://ant.design/docs/react/customize-theme-cn)
-- [国际化](https://ant.design/docs/react/i18n-cn)
-- [成为社区协作成员](https://github.com/ant-design/ant-design/wiki/Collaborators#how-to-apply-for-being-a-collaborator)
+## 🔗 相关链接
 
 ## ⌨️ 本地开发
 
@@ -82,6 +70,9 @@ $ npm start
 
 打开浏览器访问 http://127.0.0.1:8000 ，更多[本地开发文档](https://github.com/ant-design/ant-design/wiki/Development)。
 
-## 🤝 参与共建 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+## 相关推广
 
-请参考[贡献指南](https://ant.design/docs/react/contributing-cn).
+1. https://github.com/xlei1123/daymanage
+   > 这是一个使用 umi 开发的项目，想学习 umi 的新手可以学习一下
+2. https://github.com/xlei1123/dtext
+   > 前端文案默认值处理利器，统一定制修改，同时支持使用时特殊指定
