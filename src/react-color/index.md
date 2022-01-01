@@ -13,7 +13,7 @@ group:
 
 ```tsx
 import React, { useState } from 'react';
-import { ReactColor } from 'react-ui';
+import { ReactColor } from 'mouse-ui';
 export default () => {
   const [color, setColor] = useState();
   const onChangeComplete = (color) => {
@@ -32,7 +32,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { ReactColor } from 'react-ui';
+import { ReactColor } from 'mouse-ui';
 export default () => {
   return <ReactColor.BlockPicker />;
 };
@@ -42,7 +42,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { ReactColor } from 'react-ui';
+import { ReactColor } from 'mouse-ui';
 export default () => {
   return <ReactColor.CirclePicker />;
 };
@@ -52,7 +52,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { ReactColor } from 'react-ui';
+import { ReactColor } from 'mouse-ui';
 export default () => {
   return <ReactColor.CompactPicker />;
 };
@@ -62,7 +62,7 @@ export default () => {
 
 ```tsx
 import React from 'react';
-import { ReactColor } from 'react-ui';
+import { ReactColor } from 'mouse-ui';
 export default () => {
   return <ReactColor.PhotoshopPicker />;
 };

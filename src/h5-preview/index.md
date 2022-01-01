@@ -13,7 +13,7 @@ group:
 
 ```tsx
 import React, { useState } from 'react';
-import { H5Preview } from 'react-ui';
+import { H5Preview } from 'mouse-ui';
 export default () => {
   return (
     <H5Preview>
@@ -27,7 +27,7 @@ export default () => {
 
 ```tsx
 import React, { useState } from 'react';
-import { H5Preview } from 'react-ui';
+import { H5Preview } from 'mouse-ui';
 export default () => {
   return (
     <H5Preview>

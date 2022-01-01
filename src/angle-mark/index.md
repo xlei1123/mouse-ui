@@ -13,7 +13,7 @@ group:
 
 ```tsx
 import React, { useState } from 'react';
-import { AngleMark } from 'react-ui';
+import { AngleMark } from 'mouse-ui';
 import style from './index.less';
 const angleOptions = {
   position: 'rightTop', // 'leftTop', 'leftBottom', 'rightTop', 'rightBottom', 'center'

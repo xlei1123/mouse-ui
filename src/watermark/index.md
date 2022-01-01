@@ -13,10 +13,10 @@ group:
 
 ```tsx
 import React, { useState, useEffect } from 'react';
-import { WaterMark } from 'react-ui';
+import { WaterMark } from 'mouse-ui';
 export default () => {
   return (
-    <WaterMark mark={'react-ui'}>
+    <WaterMark mark={'mouse-ui'}>
       <div style={{ height: '300px' }}>这里会有水印</div>
       <input />
       <div style={{ height: '200px' }}>这里会有水印</div>

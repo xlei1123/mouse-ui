@@ -13,7 +13,7 @@ group:
 
 ```tsx
 import React, { useState } from 'react';
-import { Notice } from 'react-ui';
+import { Notice } from 'mouse-ui';
 import style from './index.less';
 const contents = '暂无权限查看该页面，试试重刷新一次';
 export default () => {
@@ -29,7 +29,7 @@ export default () => {
 
 ```tsx
 import React, { useState } from 'react';
-import { Notice } from 'react-ui';
+import { Notice } from 'mouse-ui';
 import style from './index.less';
 const contents = '暂无权限查看该页面，试试重刷新一次';
 export default () => {
@@ -45,7 +45,7 @@ export default () => {
 
 ```tsx
 import React, { useState } from 'react';
-import { Notice } from 'react-ui';
+import { Notice } from 'mouse-ui';
 import style from './index.less';
 const contents = [
   '暂无权限查看该页面,试试重刷新一次',
@@ -64,7 +64,7 @@ export default () => {
 
 ```tsx
 import React, { useState } from 'react';
-import { Notice } from 'react-ui';
+import { Notice } from 'mouse-ui';
 import style from './index.less';
 const contents = [
   '暂无权限查看该页面,试试重刷新一次',
@@ -85,7 +85,7 @@ export default () => {
 
 ```tsx
 import React, { useState } from 'react';
-import { Notice } from 'react-ui';
+import { Notice } from 'mouse-ui';
 import style from './index.less';
 const contents = (
   <span>

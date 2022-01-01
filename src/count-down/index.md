@@ -7,7 +7,7 @@ group:
 
 ## 倒计时
 
-在 react-ui 文件中引入组件
+在 mouse-ui 文件中引入组件
 
 ```js
 import { countDown } from 'taro-ui';

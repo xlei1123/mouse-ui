@@ -19,7 +19,7 @@ const index = (props: Iprops) => {
             display: 'inline-block',
             height: '50px',
             width: '80px',
-            backgroundColor: '#000',
+            backgroundColor: '#24292f',
             marginBottom: '-10px',
           }}
         ></span>
@@ -29,7 +29,7 @@ const index = (props: Iprops) => {
             display: 'inline-block',
             height: '20px',
             width: '200px',
-            backgroundColor: '#000',
+            backgroundColor: '#24292f',
           }}
         ></span>
       </div>

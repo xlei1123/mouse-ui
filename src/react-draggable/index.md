@@ -13,7 +13,7 @@ group:
 
 ```tsx
 import React, { useState } from 'react';
-import { ReactDraggable } from 'react-ui';
+import { ReactDraggable } from 'mouse-ui';
 export default () => {
   return (
     <ReactDraggable>

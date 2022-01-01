@@ -14,7 +14,7 @@ group:
 
 ```tsx
 import React, { useState } from 'react';
-import { FullScreen } from 'react-ui';
+import { FullScreen } from 'mouse-ui';
 import style from './index.less';
 export default () => {
   return (

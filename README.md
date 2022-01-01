@@ -23,7 +23,6 @@ react-ui 集成了项目中一些常用但不常见的组件。在这里你总�
 ## 🖥 兼容环境
 
 - 现代浏览器和 IE11（需要 [polyfills](https://ant.design/docs/react/getting-started-cn#兼容性)）。
-- 支持服务端渲染。
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png" alt="Electron" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -32,7 +31,7 @@ react-ui 集成了项目中一些常用但不常见的组件。在这里你总�
 ## 📦 安装
 
 ```bash
-npm install react-ui --save
+npm install mouse-ui --save
 ```
 
 ## 🔨 示例
@@ -44,13 +43,13 @@ npm install react-ui --save
 ## ⌨️ 本地开发
 
 ```bash
-$ git clone git@github.com:xlei1123/react-ui.git
-$ cd react-ui
+$ git clone git@github.com:xlei1123/mouse-ui.git
+$ cd mouse-ui
 $ npm install
 $ npm start
 ```
 
-打开浏览器访问 http://127.0.0.1:8000 ，更多[本地开发文档](https://github.com/ant-design/ant-design/wiki/Development)。
+打开浏览器访问 http://127.0.0.1:8000。
 
 ## 相关推广
 

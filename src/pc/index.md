@@ -15,7 +15,7 @@ group:
 
 ```tsx
 import React, { useState } from 'react';
-import { PC } from 'react-ui';
+import { PC } from 'mouse-ui';
 export default () => {
   return (
     <PC height={400} width={600}>
