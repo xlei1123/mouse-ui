@@ -2,7 +2,7 @@
 
 <div align="center">
 
-react-ui 集成了项目中一些常用但不常见的组件。在这里你总会发现一些惊喜 🚀🚀🚀
+mouse-ui 集成了项目中一些常用但不常见的组件。在这里你总会发现一些惊喜 🚀🚀🚀
 
 [![npm version](https://img.shields.io/npm/v/mouse-ui.svg?style=flat)](https://www.npmjs.com/package/mouse-ui)
 
