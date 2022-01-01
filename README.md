@@ -4,13 +4,7 @@
 
 mouse-ui 集成了项目中一些常用但不常见的组件。在这里你总会发现一些惊喜 🚀🚀🚀
 
-[![npm version](https://img.shields.io/npm/v/mouse-ui.svg?style=flat)](https://www.npmjs.com/package/mouse-ui)
-
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/xlei1123/react-ui#readme)
-
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/xlei1123/react-ui/graphs/commit-activity)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/xlei1123/react-ui/blob/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/mouse-ui.svg?style=flat)](https://www.npmjs.com/package/mouse-ui) [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/xlei1123/react-ui#readme) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/xlei1123/react-ui/graphs/commit-activity) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/xlei1123/react-ui/blob/master/LICENSE)
 
 </div>
 
