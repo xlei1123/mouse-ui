@@ -6,4 +6,4 @@ export { default as ReactDraggable } from './react-draggable';
 export { default as Notice } from './notice';
 export { default as WaterMark } from './waterMark';
 export { default as PC } from './pc';
-export { default as timerCountDown } from './count-down';
+export { default as TimerCountDown } from './count-down';
