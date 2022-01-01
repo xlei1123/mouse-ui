@@ -1,23 +1,13 @@
-<h1 align="center">React UI</h1>
+<h1 align="center">MOUSE UI</h1>
 
 <div align="center">
 
 react-ui 集成了项目中一些常用但不常见的组件。在这里你总会发现一些惊喜 🚀🚀🚀
 
-[![NPM version][npm-image]][npm-url] [![NPM downloads][download-image]][download-url]
-
-[![Discussions][discussions-image]][discussions-url] [![][issues-helper-image]][issues-helper-url] [![Issues need help][help-wanted-image]][help-wanted-url]
-
-[npm-image]: http://img.shields.io/npm/v/antd.svg?style=flat-square
-[npm-url]: http://npmjs.org/package/antd
-[download-image]: https://img.shields.io/npm/dm/antd.svg?style=flat-square
-[download-url]: https://npmjs.org/package/antd
-[help-wanted-image]: https://flat.badgen.net/github/label-issues/ant-design/ant-design/help%20wanted/open
-[help-wanted-url]: https://github.com/ant-design/ant-design/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
-[discussions-image]: https://img.shields.io/badge/discussions-on%20github-blue?style=flat-square
-[discussions-url]: https://github.com/ant-design/ant-design/discussions
-[issues-helper-image]: https://img.shields.io/badge/Issues%20Manage%20By-issues--helper-orange?style=flat-square
-[issues-helper-url]: https://github.com/actions-cool/issues-helper
+[![npm version](https://img.shields.io/npm/v/mouse-ui.svg?style=flat)](https://www.npmjs.com/package/mouse-ui)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/xlei1123/react-ui#readme)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/xlei1123/react-ui/graphs/commit-activity)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/xlei1123/react-ui/blob/master/LICENSE)
 
 </div>
 

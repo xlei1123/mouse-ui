@@ -21,9 +21,7 @@ function watermark(mark: string, layer?: HTMLDivElement | null) {
     ctx.fillText(mark, 0, 0);
     var url = canvas.toDataURL();
     var css_text =
-      'position:relative;background-image:url(' +
-      url +
-      ');pointer-events:none;z-index:9999;';
+      'position:relative;background-image:url(' + url + ');z-index:9999;';
 
     function createLayer() {
       if (!layer) {

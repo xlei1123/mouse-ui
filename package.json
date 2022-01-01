@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "react-ui",
+  "name": "mouse-ui",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
