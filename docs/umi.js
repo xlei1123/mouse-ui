@@ -49,7 +49,7 @@
     (n.o = function (e, t) {
       return Object.prototype.hasOwnProperty.call(e, t);
     }),
-    (n.p = '/'),
+    (n.p = './'),
     n((n.s = 0));
 })({
   '+2a4': function (e, t, n) {
