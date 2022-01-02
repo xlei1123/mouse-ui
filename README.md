@@ -33,6 +33,8 @@ npm install mouse-ui --save
 
 ## 🔨 示例
 
+https://xlei1123.github.io/mouse-ui/
+
 ### 🌈 定制主题
 
 开发中...。
