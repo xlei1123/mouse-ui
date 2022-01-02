@@ -20022,7 +20022,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'angle-mark',
             identifier: 'angle-mark-demo',
@@ -20057,7 +20057,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'count-down',
             identifier: 'count-down-demo',
@@ -20093,7 +20093,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'count-down',
             identifier: 'count-down-demo-1',
@@ -20134,7 +20134,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'full-screen',
             identifier: 'full-screen-demo',
@@ -20166,7 +20166,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'h5-preview',
             identifier: 'h5-preview-demo',
@@ -20197,7 +20197,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'h5-preview',
             identifier: 'h5-preview-demo-1',
@@ -20230,7 +20230,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'notice',
             identifier: 'notice-demo',
@@ -20264,7 +20264,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'notice',
             identifier: 'notice-demo-1',
@@ -20299,7 +20299,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'notice',
             identifier: 'notice-demo-2',
@@ -20337,7 +20337,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'notice',
             identifier: 'notice-demo-3',
@@ -20384,7 +20384,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'notice',
             identifier: 'notice-demo-4',
@@ -20416,7 +20416,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'pc',
             identifier: 'pc-demo',
@@ -20482,7 +20482,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'react-color',
             identifier: 'react-color-demo',
@@ -20509,7 +20509,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'react-color',
             identifier: 'react-color-demo-1',
@@ -20536,7 +20536,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'react-color',
             identifier: 'react-color-demo-2',
@@ -20563,7 +20563,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'react-color',
             identifier: 'react-color-demo-3',
@@ -20590,7 +20590,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'react-color',
             identifier: 'react-color-demo-4',
@@ -20633,7 +20633,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'react-draggable',
             identifier: 'react-draggable-demo',
@@ -20671,7 +20671,7 @@
             },
             dependencies: {
               react: { version: '16.14.0' },
-              'mouse-ui': { version: '1.0.0' },
+              'mouse-ui': { version: '0.0.1' },
             },
             componentName: 'watermark',
             identifier: 'watermark-demo',
@@ -36105,7 +36105,7 @@
             o.a.createElement(
               'p',
               null,
-              'react-ui \u96c6\u6210\u4e86\u9879\u76ee\u4e2d\u4e00\u4e9b\u5e38\u7528\u4f46\u4e0d\u5e38\u89c1\u7684\u7ec4\u4ef6\u3002\u5728\u8fd9\u91cc\u4f60\u603b\u4f1a\u53d1\u73b0\u4e00\u4e9b\u60ca\u559c \ud83d\ude80\ud83d\ude80\ud83d\ude80',
+              'mouse-ui \u96c6\u6210\u4e86\u9879\u76ee\u4e2d\u4e00\u4e9b\u5e38\u7528\u4f46\u4e0d\u5e38\u89c1\u7684\u7ec4\u4ef6\u3002\u5728\u8fd9\u91cc\u4f60\u603b\u4f1a\u53d1\u73b0\u4e00\u4e9b\u60ca\u559c \ud83d\ude80\ud83d\ude80\ud83d\ude80',
             ),
             o.a.createElement(
               'p',
@@ -36118,10 +36118,7 @@
                   alt: 'npm version',
                 }),
               ),
-            ),
-            o.a.createElement(
-              'p',
-              null,
+              ' ',
               o.a.createElement(
                 a['Link'],
                 { to: 'https://github.com/xlei1123/react-ui#readme' },
@@ -36130,10 +36127,7 @@
                   alt: 'Documentation',
                 }),
               ),
-            ),
-            o.a.createElement(
-              'p',
-              null,
+              ' ',
               o.a.createElement(
                 a['Link'],
                 {
@@ -36144,10 +36138,7 @@
                   alt: 'Maintenance',
                 }),
               ),
-            ),
-            o.a.createElement(
-              'p',
-              null,
+              ' ',
               o.a.createElement(
                 a['Link'],
                 {
@@ -41140,7 +41131,7 @@
                 locale: 'en-US',
                 order: null,
                 filePath: 'README.md',
-                updatedTime: 1641022299e3,
+                updatedTime: 1641047812e3,
                 slugs: [
                   { depth: 1, value: 'MOUSE UI', heading: 'mouse-ui' },
                   {
