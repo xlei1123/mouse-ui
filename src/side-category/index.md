@@ -1,0 +1,65 @@
+---
+group:
+  title: 组件
+  group: /components
+  order: 2
+---
+
+## side-category
+
+功能： pc 包裹样式
+
+### Demo: 侧边目录
+
+长宽默认是 600 400 你也可以定义
+
+```tsx
+import React, { useState } from 'react';
+import { SideCategory } from 'mouse-ui';
+export default () => {
+  const [activeKey, setActiveKey] = useState('tab1');
+  const onChange = (key) => {
+    setActiveKey(key);
+  };
+  return (
+    <SideCategory activeKey={activeKey} onChange={onChange}>
+      <SideCategory.Section tab="举报方法" tabKey="tab1">
+        <h1>举报方法</h1>
+        <p>公约的实现离不开每个用户的努力，欢迎大家看到违规评论进行举报：</p>
+        <p>①长按评论；</p>
+        <p>②在弹出的页面点击举报，随后选择举报原因。</p>
+        <img src="/bgImg.png" style={{ width: '100%' }} />
+        <h2>处理措施</h2>
+        <p>
+          根据国家互联网信息办公室出台的 《互联网跟帖评论服务管理规定》第八条：
+          “跟帖评论服务提供者对发布违反法律法规和国家有关规定的信息内容的用户，采取警示、拒绝发布、删除信息、限制功能、暂停更新直至关闭账号等措施，并保存相关记录。”
+        </p>
+        <p>
+          <strong>
+            对于违规内容和行为，将视情节进行减少推荐、评论隐藏、暂停评论功能等处理，对于情节严重的账号将予以永久封停处理。
+          </strong>
+        </p>
+        <h2>三，平台鼓励的互动行为</h2>
+        <p>
+          鼓励作者和用户之间、用户和用户之间进行积极、友善、有收获的互动交流。
+        </p>
+        <h2>平台鼓励的内容和行为</h2>
+        <p>我们鼓励以下类型的互动内容和行为。</p>
+      </SideCategory.Section>
+      <SideCategory.Section tab="举报入口" tabKey="tab2">
+        <h1>举报入口</h1>
+        <p>
+          根据国家互联网信息办公室出台的 《互联网跟帖评论服务管理规定》第八条：
+          “跟帖评论服务提供者对发布违反法律法规和国家有关规定的信息内容的用户，采取警示、拒绝发布、删除信息、限制功能、暂停更新直至关闭账号等措施，并保存相关记录。”
+        </p>
+        <h2>二，平台鼓励的互动行为</h2>
+        <p>
+          鼓励作者和用户之间、用户和用户之间进行积极、友善、有收获的互动交流。
+        </p>
+        <h2>平台鼓励的内容和行为</h2>
+        <p>我们鼓励以下类型的互动内容和行为。</p>
+      </SideCategory.Section>
+    </SideCategory>
+  );
+};
+```

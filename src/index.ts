@@ -7,3 +7,5 @@ export { default as Notice } from './notice';
 export { default as WaterMark } from './waterMark';
 export { default as PC } from './pc';
 export { default as TimerCountDown } from './count-down';
+export { default as SideCategory } from './side-category';
+export { default as Affix } from './affix';
