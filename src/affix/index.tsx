@@ -57,17 +57,14 @@ class Affix extends React.Component<AffixProps, AffixState> {
 
   private timeout: any;
 
-  context: any;
-
   private getTargetFunc() {
-    const { getTargetContainer } = this.context;
     const { target } = this.props;
 
     if (target !== undefined) {
       return target;
     }
 
-    return getTargetContainer || getDefaultTarget;
+    return getDefaultTarget;
   }
 
   // Event handler

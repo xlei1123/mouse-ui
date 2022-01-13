@@ -3,6 +3,7 @@
   justify-content: space-between;
   .category {
     width: auto;
+    margin-left: 40px;
     .categoryItem {
       position: relative;
       margin: 0;
@@ -14,12 +15,14 @@
       text-overflow: ellipsis;
       overflow: hidden;
       a.active {
+        color: #3d62d2;
         ::before {
           background: #4569d4;
         }
       }
       a {
-        color: #3d62d2;
+        text-decoration: none;
+        color: #454d64;
         ::before {
           content: '';
           position: absolute;
