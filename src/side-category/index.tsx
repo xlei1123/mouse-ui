@@ -9,13 +9,14 @@ interface Iprops {
   width: Number;
   activeKey: string;
   sideTop?: number;
+  sideWidth?: number;
   onChange: (key: string | number) => void;
 }
 
 const tabClassName = 'mouse-ui-tab';
 let scrollListener = true;
 const SideCategory = (props: Iprops) => {
-  const { children, activeKey, sideTop } = props;
+  const { children, activeKey, sideTop, sideWidth } = props;
   const [renderChildren, setRenderChildren] = useState<ReactNode[] | null>();
   const [cateGory, setCategory] = useState<any[]>();
   const [titListOffsetTop, setTitListOffsetTop] = useState<any[]>();
@@ -81,7 +82,9 @@ const SideCategory = (props: Iprops) => {
   };
   return (
     <div className={styles.categoryWrapper}>
-      <div>{renderChildren}</div>
+      <div style={{ width: `calc(100% - ${sideWidth}px - 40px)` }}>
+        {renderChildren}
+      </div>
       <Affix offsetTop={sideTop}>
         <ul className={styles.category}>
           {cateGory?.map((cate, index) => {
@@ -92,7 +95,6 @@ const SideCategory = (props: Iprops) => {
                 onClick={() => changeTabKey(cate.tabKey)}
               >
                 <a
-                  // href={`#${cate.tabKey}`}
                   onClick={() => scrollTopTitlePos(titListOffsetTop?.[index])}
                   className={cate.tabKey === activeKey ? styles.active : null}
                 >
