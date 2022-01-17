@@ -68,7 +68,7 @@ const SideCategory = (props: Iprops) => {
       const _topList: React.SetStateAction<any[] | undefined> = [];
       Array.from(titleEles).forEach((titleEle) => {
         if (titleEle instanceof HTMLElement) {
-          _topList.push(getElementTop(titleEle));
+          _topList.push(getElementTop(titleEle) - (sideTop || 0));
         }
       });
       setTitListOffsetTop(_topList);
