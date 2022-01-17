@@ -15,6 +15,16 @@ interface Iprops {
 
 const tabClassName = 'mouse-ui-tab';
 let scrollListener = true;
+
+function getElementTop(element: HTMLElement) {
+  var actualTop = element.offsetTop;
+  var current = element.offsetParent as HTMLElement;
+  while (current !== null) {
+    actualTop += current.offsetTop;
+    current = current.offsetParent as HTMLElement;
+  }
+  return actualTop;
+}
 const SideCategory = (props: Iprops) => {
   const { children, activeKey, sideTop, sideWidth } = props;
   const [renderChildren, setRenderChildren] = useState<ReactNode[] | null>();
@@ -58,7 +68,7 @@ const SideCategory = (props: Iprops) => {
       const _topList: React.SetStateAction<any[] | undefined> = [];
       Array.from(titleEles).forEach((titleEle) => {
         if (titleEle instanceof HTMLElement) {
-          _topList.push(titleEle.offsetTop);
+          _topList.push(getElementTop(titleEle));
         }
       });
       setTitListOffsetTop(_topList);
