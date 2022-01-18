@@ -77,8 +77,9 @@ const SideCategory = (props: Iprops) => {
     return () => window.removeEventListener('scroll', onscroll);
   }, [titListOffsetTop]);
 
-  const changeTabKey = (key: string | number) => {
+  const changeTabKey = (key: string | number, pos?: number) => {
     props.onChange(key);
+    pos && scrollTopTitlePos(pos);
   };
   const scrollTopTitlePos = (pos: number) => {
     scrollListener = false;
@@ -102,12 +103,11 @@ const SideCategory = (props: Iprops) => {
               <li
                 key={cate.tabKey}
                 className={styles.categoryItem}
-                onClick={() => changeTabKey(cate.tabKey)}
+                onClick={() =>
+                  changeTabKey(cate.tabKey, titListOffsetTop?.[index])
+                }
               >
-                <a
-                  onClick={() => scrollTopTitlePos(titListOffsetTop?.[index])}
-                  className={cate.tabKey === activeKey ? styles.active : null}
-                >
+                <a className={cate.tabKey === activeKey ? styles.active : null}>
                   <span className={styles.tab}>{cate.tab}</span>
                 </a>
               </li>
