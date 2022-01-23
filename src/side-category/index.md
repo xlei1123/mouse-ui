@@ -12,6 +12,7 @@ group:
 ### Demo: 侧边目录
 
 长宽默认是 600 400 你也可以定义
+sideTop: 目录距离浏览器顶部的距离，同时在点击对应目录时， 对应内容的滚动高度也是距离顶部 sideTop 的距离
 
 ```tsx
 import React, { useState } from 'react';

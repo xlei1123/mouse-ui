@@ -99,19 +99,23 @@ const SideCategory = (props: Iprops) => {
       <Affix offsetTop={sideTop}>
         <ul className={styles.category}>
           {cateGory?.map((cate, index) => {
-            return (
-              <li
-                key={cate.tabKey}
-                className={styles.categoryItem}
-                onClick={() =>
-                  changeTabKey(cate.tabKey, titListOffsetTop?.[index])
-                }
-              >
-                <a className={cate.tabKey === activeKey ? styles.active : null}>
-                  <span className={styles.tab}>{cate.tab}</span>
-                </a>
-              </li>
-            );
+            if (cate.tab && cate.tabKey)
+              return (
+                <li
+                  key={cate.tabKey}
+                  className={styles.categoryItem}
+                  onClick={() =>
+                    changeTabKey(cate.tabKey, titListOffsetTop?.[index])
+                  }
+                >
+                  <a
+                    className={cate.tabKey === activeKey ? styles.active : null}
+                  >
+                    <span className={styles.tab}>{cate.tab}</span>
+                  </a>
+                </li>
+              );
+            return null;
           })}
         </ul>
       </Affix>
